@@ -35,6 +35,13 @@ Data Mining, Artificial Intelligence, Machine Learning, Digital Image Processing
 ![Jenkins](https://img.shields.io/badge/-Jenkins-D24939?style=flat&logo=jenkins&logoColor=white)
 ![Databricks](https://img.shields.io/badge/-Databricks-FF3621?style=flat&logo=databricks&logoColor=white)
 
+**Experienced Roles**:  
+- ![Data Scientist](https://img.shields.io/badge/-Data%20Scientist-5A4FCF?style=flat&logo=dataiku&logoColor=white)
+- ![Machine Learning Engineer](https://img.shields.io/badge/-Machine%20Learning%20Engineer-0A66C2?style=flat&logo=azure-machine-learning&logoColor=white)
+- ![AI Engineer](https://img.shields.io/badge/-AI%20Engineer-FF6F00?style=flat&logo=ai&logoColor=white)
+- ![Software Developer](https://img.shields.io/badge/-Software%20Developer-007396?style=flat&logo=java&logoColor=white)
+- ![Research Analyst](https://img.shields.io/badge/-Research%20Analyst-1E90FF?style=flat&logo=academia&logoColor=white)
+
 👥 **Leadership & Affiliations**  
 - **President**: Indian Student Organization (January 2023 - Present)
 - **Member**: Mathematical Association of America, Association for Computing Machinery
