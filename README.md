@@ -57,9 +57,8 @@ Data Mining, Artificial Intelligence, Machine Learning, Digital Image Processing
 - **Movie Genre Recognition from Posters**: Created a CNN-based system for classifying movie genres from posters.
 
 🌐 **LinkedIn Profile**  
-<a href="https://www.linkedin.com/in/manishkolla/" target="_blank">
-  <img src="https://img.shields.io/badge/-Manish%20Kolla-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" />
-</a>
+[![LinkedIn](https://img.shields.io/badge/-Manish%20Kolla-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/manishkolla/)
+
 
 
 ### Hobbies
