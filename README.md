@@ -69,7 +69,8 @@ Data Mining, Artificial Intelligence, Machine Learning, Digital Image Processing
 
 
 📊 **GitHub Stats**  
-[![Manish's GitHub stats](https://github-readme-stats.vercel.app/api?username=manishkolla&show_icons=true&theme=dark)](https://github.com/manishkolla)
+[![Manish's GitHub stats](https://github-readme-stats.vercel.app/api?username=manishkolla&show_icons=true&theme=radical)](https://github.com/manishkolla)
+
 
 <!--
 - 🔭 I’m currently working on ...
