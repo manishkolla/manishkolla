@@ -1,6 +1,5 @@
 ## Hi there 👋
 
-### About Me
 
 ### Hi, I'm Manish Kolla 👋
 
