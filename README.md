@@ -36,11 +36,14 @@ Data Mining, Artificial Intelligence, Machine Learning, Digital Image Processing
 ![Databricks](https://img.shields.io/badge/-Databricks-FF3621?style=flat&logo=databricks&logoColor=white)
 
 **Experienced Roles**:  
+- ![Former ADP Data Science / Machine Learning Intern](https://img.shields.io/badge/-Former%20ADP%20Intern-FF5733?style=flat&logo=adp&logoColor=white)
 - ![Data Scientist](https://img.shields.io/badge/-Data%20Scientist-5A4FCF?style=flat&logo=dataiku&logoColor=white)
 - ![Machine Learning Engineer](https://img.shields.io/badge/-Machine%20Learning%20Engineer-0A66C2?style=flat&logo=azure-machine-learning&logoColor=white)
 - ![AI Engineer](https://img.shields.io/badge/-AI%20Engineer-FF6F00?style=flat&logo=ai&logoColor=white)
 - ![Software Developer](https://img.shields.io/badge/-Software%20Developer-007396?style=flat&logo=java&logoColor=white)
 - ![Research Analyst](https://img.shields.io/badge/-Research%20Analyst-1E90FF?style=flat&logo=academia&logoColor=white)
+- ![Mathematics Tutor](https://img.shields.io/badge/-Mathematics%20Tutor-FFD700?style=flat&logo=mathworks&logoColor=white)
+
 
 👥 **Leadership & Affiliations**  
 - **President**: Indian Student Organization (January 2023 - Present)
@@ -53,8 +56,16 @@ Data Mining, Artificial Intelligence, Machine Learning, Digital Image Processing
 - **Airline Data Analysis**: Analyzed airport delays using Data Mining and Machine Learning to identify delay patterns and causes.
 - **Movie Genre Recognition from Posters**: Created a CNN-based system for classifying movie genres from posters.
 
-🌐 **LinkedIn Website**  
-[Manish Kolla](https://www.linkedin.com/in/manishkolla/)
+🌐 **LinkedIn Profile**  
+[![LinkedIn](https://img.shields.io/badge/-Manish%20Kolla-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/manishkolla/)
+
+### Hobbies
+
+- ![Travelling](https://img.shields.io/badge/-Travelling%20Places-009688?style=flat&logo=globe&logoColor=white) **Travelling Places**
+- ![Cuisine](https://img.shields.io/badge/-Eating%20New%20Cuisines-F57F17?style=flat&logo=food&logoColor=white) **Eating New Cuisines**
+- ![Music](https://img.shields.io/badge/-Music-1DB954?style=flat&logo=spotify&logoColor=white) **Music**
+- ![Badminton](https://img.shields.io/badge/-Badminton-FFCA28?style=flat&logo=badminton&logoColor=black) **Badminton**
+
 
 📊 **GitHub Stats**  
 [![Manish's GitHub stats](https://github-readme-stats.vercel.app/api?username=manishkolla&show_icons=true&theme=dark)](https://github.com/manishkolla)
