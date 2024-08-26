@@ -5,14 +5,11 @@
 ### Hi, I'm Manish Kolla 👋
 
 🎓 **Education**  
-I'm a junior Computer Science student at Georgia State University, Honors College, with a certificate in Data Science. I currently have a GPA of 3.95 and plan to graduate in May 2025. I've been recognized on the President's List four times and the Dean's List twice, and I was a nominee for the Undergraduate Research Award.
+I'm a senior Computer Science student at Georgia State University, Honors College, with a certificate in Data Science. I currently have a GPA of 3.95 and plan to graduate in May 2025. I've been recognized on the President's List four times and the Dean's List twice, and I was a nominee for the Undergraduate Research Award.
 
 📚 **Relevant Coursework**  
 Data Mining, Artificial Intelligence, Machine Learning, Digital Image Processing, Software Engineering, Linear Algebra, Data Structures and Algorithms.
 
-🌟 **Campus Involvement**  
-- **President**: Indian Student Organization  
-- **Member**: Mathematical Association of America, Association for Computing Machinery
 
 🛠️ **Skills**  
 
@@ -45,8 +42,8 @@ Data Mining, Artificial Intelligence, Machine Learning, Digital Image Processing
 - **Airline Data Analysis**: Analyzed airport delays using Data Mining and Machine Learning to identify delay patterns and causes.
 - **Movie Genre Recognition from Posters**: Created a CNN-based system for classifying movie genres from posters.
 
-🌐 **Portfolio Website**  
-[Manish Kolla](https://github.com/manishkolla)
+🌐 **LinkedIn Website**  
+[Manish Kolla](https://www.linkedin.com/in/manishkolla/)
 
 📊 **GitHub Stats**  
 [![Manish's GitHub stats](https://github-readme-stats.vercel.app/api?username=manishkolla&show_icons=true&theme=dark)](https://github.com/manishkolla)
