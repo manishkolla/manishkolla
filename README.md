@@ -61,10 +61,10 @@ Data Mining, Artificial Intelligence, Machine Learning, Digital Image Processing
 
 ### Hobbies
 
-- ![Travelling](https://img.shields.io/badge/-Travelling%20Places-009688?style=flat&logo=globe&logoColor=white) **Travelling Places**
-- ![Cuisine](https://img.shields.io/badge/-Eating%20New%20Cuisines-F57F17?style=flat&logo=food&logoColor=white) **Eating New Cuisines**
-- ![Music](https://img.shields.io/badge/-Music-1DB954?style=flat&logo=spotify&logoColor=white) **Music**
-- ![Badminton](https://img.shields.io/badge/-Badminton-FFCA28?style=flat&logo=badminton&logoColor=black) **Badminton**
+- ![Travelling](https://img.shields.io/badge/-Travelling%20Places-009688?style=flat&logo=globe&logoColor=white)
+- ![Cuisine](https://img.shields.io/badge/-Eating%20New%20Cuisines-F57F17?style=flat&logo=food&logoColor=white)
+- ![Music](https://img.shields.io/badge/-Music-1DB954?style=flat&logo=spotify&logoColor=white)
+- ![Badminton](https://img.shields.io/badge/-Badminton-FFCA28?style=flat&logo=badminton&logoColor=black)
 
 
 📊 **GitHub Stats**  
