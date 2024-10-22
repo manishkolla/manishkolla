@@ -4,7 +4,7 @@
 ### Hi, I'm Manish Kolla 👋
 
 🎓 **Education**  
-I'm a senior Computer Science student at Georgia State University, Honors College, with a certificate in Data Science. I currently have a GPA of 3.95 and plan to graduate in May 2025. I've been recognized on the President's List four times and the Dean's List twice, and I was a nominee for the Undergraduate Research Award.
+I'm a senior Computer Science student at Georgia State University, Honors College, with a certificate in Data Science. I currently have a GPA of 3.95 and plan to graduate in May 2025. I've been recognized on the President's List four times and the Dean's List twice, and I was a nominee for the Undergraduate Research Award. Additionally, I serve as the President of the Indian Student Organization and have been working as a research analyst for the past two years.
 
 📚 **Relevant Coursework**  
 Data Mining, Artificial Intelligence, Machine Learning, Digital Image Processing, Software Engineering, Linear Algebra, Data Structures and Algorithms.
