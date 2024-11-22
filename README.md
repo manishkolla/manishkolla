@@ -50,7 +50,7 @@ Data Mining, Artificial Intelligence, Machine Learning, Software Engineering, Da
 
 ### Projects
 
-- **Career Swipe**: Developed an AI-powered platform for skills-based matching between employers and students using TypeScript, Node.js, Django, Flask, and GenAI. Deployed with Firebase and managed using Agile/Scrum methodologies.
+- **Career Wide**: Developed an AI-powered platform for skills-based matching between employers and students using TypeScript, Node.js, Django, Flask, and GenAI. Deployed with Firebase and managed using Agile/Scrum methodologies.
 - **Zillow Home Price Prediction**: Applied CRISP-DM and ML algorithms to predict future home prices using historical data and inflation adjustments.
 - **GenAI University Chatbot**: Developed a Retrieval-Augmented Generation (RAG) chatbot for a website, streamlining user interaction by providing instant answers, reducing server load, and enhancing user experience beyond traditional navigation.
 - **Airline Data Analysis**: Analyzed airport delays using Data Mining and Machine Learning to identify delay patterns and causes.
