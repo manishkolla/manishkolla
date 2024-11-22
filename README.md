@@ -55,7 +55,7 @@ Data Mining, Artificial Intelligence, Machine Learning, Software Engineering, Li
 - **GenAI University Chatbot**: Developed a Retrieval-Augmented Generation (RAG) chatbot for a website, streamlining user interaction by providing instant answers, reducing server load, and enhancing user experience beyond traditional navigation.
 - **Airline Data Analysis**: Analyzed airport delays using Data Mining and Machine Learning to identify delay patterns and causes.
 - **Movie Genre Recognition from Posters**: Created a CNN-based system for classifying movie genres from posters.
-- **Multi Threaded Web Crawler**: Implemented a multi-threaded web crawler in Java, designed to efficiently explore and extract data from websites using Jsoup and ExecutorService. The crawler recursively explores websites, ensuring valid and unvisited links are processed, and supports resuming from saved states.
+- **Multi Threaded Web Crawler**: Developed a multi-threaded web crawler in Java using Jsoup and ExecutorService to efficiently explore and extract data from websites. It ensures only valid, unvisited links are processed and supports resuming from saved states.
 
 
 🌐 **LinkedIn Profile**  
