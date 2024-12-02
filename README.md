@@ -1,4 +1,4 @@
-## Hi there 👋
+## Hi, I'm Manish Kolla 👋
 
 
 ### Hi, I'm Manish Kolla 👋
