@@ -5,7 +5,7 @@
 ![Typing Animation](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=4000&pause=1000&color=6AD3F7&center=true&vCenter=true&width=500&lines=AI+%26+ML+Engineer;Data+Scientist;Software+Developer;Research+Analyst)
 
 [![LinkedIn](https://img.shields.io/badge/-Manish%20Kolla-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/manishkolla/)
-[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/manishkolla)
+[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/manishkolla)5
 
 ### "Transforming Data into Insights, Code into Solutions" 💡
 </div>
