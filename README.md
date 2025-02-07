@@ -2,10 +2,12 @@
 
   # Manish Kolla
 
-![Typing Animation](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=4000&pause=1000&color=6AD3F7&center=true&vCenter=true&width=500&lines=AI+%26+ML+Engineer;Data+Scientist;Software+Developer;Research+Analyst)
+![Typing Animation](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=4000&pause=1000&color=6AD3F7&center=true&vCenter=true&width=550&lines=AI+%26+ML+Engineer;Gen+AI+Engineer;Deep+Learning;Data+Scientist;Software+Developer;Research+Analyst)
 
-[![LinkedIn](https://img.shields.io/badge/-Manish%20Kolla-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/manishkolla/)
-[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/manishkolla)
+
+[![LinkedIn](https://img.shields.io/badge/-Manish%20Kolla-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/manishkolla/) 
+[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/manishkolla)  
+[![EBCS](https://img.shields.io/badge/-EBCS-0a66c2?style=flat&logo=internet-explorer&logoColor=white)](https://ebcs.gsu.edu/profile/manish-kolla/)
 
 ### "Transforming Data into Insights, Code into Solutions" 💡
 </div>
