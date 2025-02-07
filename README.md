@@ -12,7 +12,7 @@
 
 
 🎓 **Education and Awards**  
-**Georgia State University**, Atlanta, GA
+**Georgia State University (Honors)**, Atlanta, GA
 - 🎯 B.S. in Computer Science with Data Science Certificate
 - 📊 GPA: 3.98/4.0
 - 🏆 President's List (5x) & Dean's List (2x)
