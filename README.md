@@ -1,8 +1,23 @@
-## Hi, I'm Manish Kolla 👋
+<div align="center">
+
+  # Manish Kolla
+
+![Typing Animation](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=4000&pause=1000&color=6AD3F7&center=true&vCenter=true&width=500&lines=AI+%26+ML+Engineer;Data+Scientist;Software+Developer;Research+Analyst)
+
+[![LinkedIn](https://img.shields.io/badge/-Manish%20Kolla-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/manishkolla/)
+[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/manishkolla)
+
+### "Transforming Data into Insights, Code into Solutions" 💡
+</div>
 
 
-🎓 **Education**  
-I'm a senior Computer Science student at Georgia State University, Honors College, with a certificate in Data Science. I currently have a GPA of 3.95 and plan to graduate in May 2025. I've been recognized on the President's List four times and the Dean's List twice, and I was a nominee for the Undergraduate Research Award. Additionally, I serve as the President of the Indian Student Organization and have been working as a research analyst for the past two years.
+🎓 **Education and Awards**  
+**Georgia State University**, Atlanta, GA
+- 🎯 B.S. in Computer Science with Data Science Certificate
+- 📊 GPA: 3.98/4.0
+- 🏆 President's List (5x) & Dean's List (2x)
+- 📋 Undergraduate Research Award Nominee
+- 👥 President, Indian Student Organization
 
 📚 **Relevant Coursework**  
 Data Mining, Artificial Intelligence, Machine Learning, Software Engineering, Database Systems, Linear Algebra, Multivariable Calculus, Data Structures and Algorithms.
@@ -59,6 +74,17 @@ Data Mining, Artificial Intelligence, Machine Learning, Software Engineering, Da
 🌐 **LinkedIn Profile**  
 [![LinkedIn](https://img.shields.io/badge/-Manish%20Kolla-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/manishkolla/)
 
+
+## 📚 Current Learning Path
+```mermaid
+graph TD
+    A[Current Focus] --> B[Advanced ML]
+    A --> C[Cloud Architecture]
+    A --> D[AI Systems]
+    B --> E[Deep Learning]
+    C --> F[AWS,GCP Solutions]
+    D --> G[LLM Applications]
+```
 
 
 ### Hobbies
