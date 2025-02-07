@@ -89,6 +89,8 @@ graph TD
 - ![Cuisine](https://img.shields.io/badge/-Eating%20New%20Cuisines-F57F17?style=flat&logo=food&logoColor=white)
 - ![Music](https://img.shields.io/badge/-Music-1DB954?style=flat&logo=spotify&logoColor=white)
 - ![Badminton](https://img.shields.io/badge/-Badminton-FFCA28?style=flat&logo=badminton&logoColor=black)
+- ![Swimming](https://img.shields.io/badge/-Swimming-0099CC?style=flat&logo=swimming&logoColor=white)
+
 
 
 📊 **GitHub Stats**  
