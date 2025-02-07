@@ -71,10 +71,6 @@ Data Mining, Artificial Intelligence, Machine Learning, Software Engineering, Da
 - **Multi Threaded Web Crawler**: Developed a multi-threaded web crawler in Java using Jsoup and ExecutorService to efficiently explore and extract data from websites. It ensures only valid, unvisited links are processed and supports resuming from saved states.
 
 
-🌐 **LinkedIn Profile**  
-[![LinkedIn](https://img.shields.io/badge/-Manish%20Kolla-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/manishkolla/)
-
-
 ## 📚 Current Learning Path
 ```mermaid
 graph TD
