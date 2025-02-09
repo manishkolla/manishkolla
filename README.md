@@ -34,6 +34,16 @@
 📚 **Relevant Coursework**  
 Data Mining, Artificial Intelligence, Machine Learning, Software Engineering, Database Systems, Linear Algebra, Multivariable Calculus, Data Structures and Algorithms.
 
+## 🔍 Research Interests  
+```mermaid  
+graph TD  
+    A[Research Focus] --> B[Legal AI]  
+    A --> C[Criminology & Justice]  
+    A --> D[Fraud Detection]  
+    B --> E[NLP for Legal Docs]  
+    C --> F[Crime Prediction]  
+    D --> G[Anomaly Detection]  
+    D --> H[Financial Fraud]  
 
 🛠️ **Skills**  
 
