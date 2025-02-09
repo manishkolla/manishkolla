@@ -70,7 +70,7 @@ Data Mining, Artificial Intelligence, Machine Learning, Software Engineering, Da
 
 👥 **Leadership & Affiliations**  
 - **President**: Indian Student Organization (January 2023 - Present)
-- **Member**: Mathematical Association of America, Association for Computing Machinery
+- **Member**: Mathematical Association of America (MAA), Association for Computing Machinery (ACM)
 
 ### Projects
 
