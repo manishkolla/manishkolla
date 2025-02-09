@@ -34,7 +34,7 @@
 📚 **Relevant Coursework**  
 Data Mining, Artificial Intelligence, Machine Learning, Software Engineering, Database Systems, Linear Algebra, Multivariable Calculus, Data Structures and Algorithms.
 
-## 🔍 Research Interests & Skills  
+## 🔍 Current Areas of Research
 ```mermaid  
 graph TD  
     A[Research Focus] --> B[Legal AI]  
