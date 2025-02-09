@@ -1,6 +1,6 @@
 <div align="center">
 
-  # Manish  Kolla
+  # Manish Kolla
 
 ![Typing Animation](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=4000&pause=1000&color=6AD3F7&center=true&vCenter=true&width=550&lines=AI+%26+ML+Engineer;Gen+AI+Engineer;Deep+Learning;Data+Scientist;Software+Developer;Research+Analyst)
 
