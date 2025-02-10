@@ -7,8 +7,9 @@
 
 
 <a href="https://www.linkedin.com/in/manishkolla/" target="_blank">
-  <img src="https://img.shields.io/badge/-Manish%20Kolla-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" width="30" height="30"/>
 </a>
+
 
 <a href="https://github.com/manishkolla" target="_blank">
   <img src="https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white" alt="GitHub"/>
