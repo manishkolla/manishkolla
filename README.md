@@ -41,9 +41,9 @@ graph TD
     A --> C[Criminology & Justice]  
     A --> D[Fraud & Cybercrime]  
 
-    B --> E[NLP for US Law Code]  
+    B --> E[NLP for US Code]  
     C --> F[Crime Prediction]   
-    D --> G[Financial Fraud]  
+    D --> G[Financial Fraud Intelligence]  
     D --> H[Darknet/Threat Intelligence]   
 
 
