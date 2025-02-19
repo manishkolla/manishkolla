@@ -16,7 +16,7 @@ const App = () => {
     // Simulate initial loading
     setTimeout(() => {
       setIsLoading(false);
-    }, 1500);
+    }, 2500);
   }, []);
 
   if (isLoading) {
@@ -24,7 +24,7 @@ const App = () => {
       <div className="fixed inset-0 flex items-center justify-center bg-gray-50">
         <div className="text-center">
           <div className="animate-spin rounded-full h-32 w-32 border-b-2 border-blue-600 mx-auto"></div>
-          <p className="mt-4 text-xl text-gray-600">Loading amazing content...</p>
+          <p className="mt-4 text-xl text-gray-600">Loading... Did you know Data Science is 90% waiting for code to run?</p>
         </div>
       </div>
     );
