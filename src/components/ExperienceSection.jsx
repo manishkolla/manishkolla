@@ -1,16 +1,38 @@
 import React, { useState } from 'react';
-import { Briefcase, Calendar, ArrowRight, Building2, MapPin } from 'lucide-react';
-import { SiOpenai } from "react-icons/si"; 
-import { MdOutlineTipsAndUpdates } from "react-icons/md";  // Prompt Engineering (idea/lightbulb icon)
-import { FaChartPie } from "react-icons/fa";  // Statistics (pie chart icon)
-import { FaFlask } from "react-icons/fa";  // Research (lab flask icon)
-import { FaPython, FaAws, FaBrain, FaMicrophone, FaCloud, FaDatabase, FaChartLine, FaJs, FaCode, FaRobot, FaNetworkWired, FaChrome, FaGlobe, FaUserGraduate } from 'react-icons/fa';
-import { useTheme } from '../context/ThemeContext';
+import { 
+  Briefcase, 
+  Calendar, 
+  Building2, 
+  MapPin, 
+  ChevronDown,
+  ArrowRight
+} from 'lucide-react';
+import { 
+  FaBrain, 
+  FaMicrophone, 
+  FaPython, 
+  FaAws, 
+  FaCloud, 
+  FaDatabase, 
+  FaChartLine, 
+  FaGlobe, 
+  FaChrome, 
+  FaCode, 
+  FaRobot, 
+  FaNetworkWired, 
+  FaUserGraduate 
+} from 'react-icons/fa';
+import { SiOpenai } from "react-icons/si";
+import { MdOutlineTipsAndUpdates } from "react-icons/md";
+import { FaChartPie } from "react-icons/fa";
+import { FaFlask } from "react-icons/fa";
 
 const ExperienceSection = () => {
-  const { currentTheme } = useTheme();
+  const [expandedId, setExpandedId] = useState(null);
+
   const experiences = [
     {
+      id: 1,
       title: "Research Analyst / Data Scientist",
       company: "Evidence Based Cybersecurity Research Group (EBCS)",
       location: "Atlanta, GA",
@@ -20,11 +42,11 @@ const ExperienceSection = () => {
         "Leveraging Machine Learning, Deep Learning, and NLP to analyze data patterns and trained neural networks to predict emerging threats, using virtual machines for malware protection and advanced cloud clusters for better computing abilities.",
         "Leading a team of 6 data scientists, presenting findings to sponsors, fostering collaboration, and ensuring project success."
       ],
-      techStack: ["Web Automation", "Selenium", "Machine Learning", "Deep Learning", "NLP", "SQL", "Deep Learning", "Research"]
+      techStack: ["Web Automation", "Selenium", "Machine Learning", "Deep Learning", "NLP", "SQL", "Research"]
     },
-
     {
-      title: "Mathematics Tutor",
+      id: 2,
+      title: "Teaching Assistant / Tutor",
       company: "Department of Mathematics and Statistics, GSU",
       location: "Atlanta, GA",
       period: "January 2022 - Present",
@@ -35,8 +57,8 @@ const ExperienceSection = () => {
       ],
       techStack: ["Linear Algebra", "Calculus", "Teaching", "Academic Support", "Statistics"]
     },
-
     {
+      id: 3,
       title: "Data Science / Machine Learning Intern",
       company: "Automatic Data Processing (ADP)",
       location: "Alpharetta, GA",
@@ -46,11 +68,10 @@ const ExperienceSection = () => {
         "Conducted in-depth analysis using metrics like ROUGE, BLEU, Levenshtein distance, and Cosine similarity to optimize prompt performance.",
         "Actively managed CI/CD workflows using Jenkins, Splunk, and Postman to ensure seamless application deployment."
       ],
-      techStack: ["Generative AI", "AWS", "Python", "Flask", "NLP", "CI/CD", "Machine Learning", "OpenAI", "Prompt Engineering"]
+      techStack: ["Generative AI", "AWS", "Python", "Flask", "NLP", "CI/CD", "OpenAI", "Prompt Engineering"]
     },
-    
-    
     {
+      id: 4,
       title: "Information Technology Intern",
       company: "Lavner Education",
       location: "Sandy Springs, GA",
@@ -64,16 +85,11 @@ const ExperienceSection = () => {
     }
   ];
 
-  const [hoveredIndex, setHoveredIndex] = useState(null);
-
   const skillIcons = {
     "Neural Networks": <FaBrain className="w-4 h-4 mr-1" />,
     "NLP": <FaMicrophone className="w-4 h-4 mr-1" />,
-    "CNN": <FaBrain className="w-4 h-4 mr-1" />,
-    "Audio Processing": <FaMicrophone className="w-4 h-4 mr-1" />,
     "Python": <FaPython className="w-4 h-4 mr-1" />,
     "AWS": <FaAws className="w-4 h-4 mr-1" />,
-    "Generative AI": <FaBrain className="w-4 h-4 mr-1" />,
     "Cloud Infrastructure": <FaCloud className="w-4 h-4 mr-1" />,
     "Machine Learning": <FaBrain className="w-4 h-4 mr-1" />,
     "Data Analysis": <FaDatabase className="w-4 h-4 mr-1" />,
@@ -91,75 +107,83 @@ const ExperienceSection = () => {
     "C": <FaCode className="w-4 h-4 mr-1" />,
     "AI": <FaRobot className="w-4 h-4 mr-1" />,
     "IT Support": <FaNetworkWired className="w-4 h-4 mr-1" />,
-    "OpenAI": <SiOpenai className="w-4 h-4 mr-1" />,  // OpenAI logo
-    "Prompt Engineering": <MdOutlineTipsAndUpdates className="w-4 h-4 mr-1" />,  // Lightbulb/idea icon
-    "Statistics": <FaChartPie className="w-4 h-4 mr-1" />,  // Pie chart for stats
-    "Research": <FaFlask className="w-4 h-4 mr-1" />  // Lab flask for research
+    "OpenAI": <SiOpenai className="w-4 h-4 mr-1" />,
+    "Prompt Engineering": <MdOutlineTipsAndUpdates className="w-4 h-4 mr-1" />,
+    "Statistics": <FaChartPie className="w-4 h-4 mr-1" />,
+    "Research": <FaFlask className="w-4 h-4 mr-1" />
   };
 
   return (
-    <section id="experience" className={`py-20 ${currentTheme.background.primary}`}>
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section className="py-20 bg-gray-50 dark:bg-gray-900">
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className={`text-3xl font-bold ${currentTheme.text.primary} sm:text-4xl`}>Professional Experience</h2>
-          <p className={`mt-4 text-lg ${currentTheme.text.secondary}`}>
+          <h2 className="text-3xl font-bold text-gray-900 dark:text-white sm:text-4xl">
+            Professional Experience
+          </h2>
+          <p className="mt-4 text-lg text-gray-600 dark:text-gray-300">
             My journey through various roles in Data Science, AI, and Academic Support
           </p>
         </div>
 
-        <div className="relative">
-          <div className="border-l-2 border-gray-200 absolute h-full left-1/2 transform -translate-x-1/2"></div>
-          <div className="space-y-8">
-            {experiences.map((exp, index) => (
-              <div
-                key={index}
-                className={`relative flex items-center justify-between ${index % 2 === 0 ? 'flex-row-reverse' : ''}`}
-                onMouseEnter={() => setHoveredIndex(index)}
-                onMouseLeave={() => setHoveredIndex(null)}
+        <div className="space-y-4">
+          {experiences.map((exp) => (
+            <div
+              key={exp.id}
+              className="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden"
+            >
+              <button
+                onClick={() => setExpandedId(expandedId === exp.id ? null : exp.id)}
+                className="w-full text-left p-6 focus:outline-none"
               >
-                <div className="w-5/12">
-                  <div
-                    className={`rounded-xl shadow-lg transition-all duration-300 transform ${
-                      hoveredIndex === index ? 'scale-[1.02] shadow-xl' : ''
-                    } ${currentTheme.background.secondary} p-6 sm:p-8`}
-                  >
-                    <div className="mb-6">
-                      <h3 className={`text-xl font-bold ${currentTheme.text.primary} flex items-center`}>
-                        <Briefcase className="w-5 h-5 text-blue-600 mr-2" />
+                <div className="flex items-center justify-between">
+                  <div className="flex-1">
+                    <div className="flex items-center">
+                      <Briefcase className="w-5 h-5 text-blue-600 mr-2" />
+                      <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
                         {exp.title}
                       </h3>
-                      
-                      <div className={`mt-2 ${currentTheme.text.secondary} flex items-center`}>
-                        <Building2 className="w-4 h-4 mr-2 flex-shrink-0" />
-                        <span>{exp.company}</span>
-                      </div>
-                      
-                      <div className="flex justify-between items-center mt-2">
-                        <div className={`${currentTheme.text.secondary} flex items-center`}>
-                          <MapPin className="w-4 h-4 mr-2 flex-shrink-0" />
-                          <span>{exp.location}</span>
-                        </div>
-                        <div className={`${currentTheme.text.secondary} flex items-center`}>
-                          <Calendar className="w-4 h-4 mr-2 flex-shrink-0" />
-                          <span className="whitespace-nowrap">{exp.period}</span>
-                        </div>
-                      </div>
                     </div>
                     
-                    <div className="space-y-4">
-                      {exp.achievements.map((achievement, idx) => (
-                        <div key={idx} className={`flex items-start ${currentTheme.text.secondary}`}>
-                          <ArrowRight className="w-5 h-5 text-blue-600 mr-2 mt-1 flex-shrink-0" />
-                          <p>{achievement}</p>
-                        </div>
-                      ))}
+                    <div className="mt-2 grid grid-cols-1 sm:grid-cols-2 gap-2">
+                      <div className="flex items-center text-gray-600 dark:text-gray-300">
+                        <Building2 className="w-4 h-4 mr-2" />
+                        <span className="text-sm">{exp.company}</span>
+                      </div>
+                      
+                      <div className="flex items-center text-gray-600 dark:text-gray-300">
+                        <Calendar className="w-4 h-4 mr-2" />
+                        <span className="text-sm">{exp.period}</span>
+                      </div>
+                      
+                      <div className="flex items-center text-gray-600 dark:text-gray-300">
+                        <MapPin className="w-4 h-4 mr-2" />
+                        <span className="text-sm">{exp.location}</span>
+                      </div>
                     </div>
+                  </div>
+                  <ChevronDown
+                    className={`w-5 h-5 text-gray-500 transform transition-transform duration-200 ${
+                      expandedId === exp.id ? 'rotate-180' : ''
+                    }`}
+                  />
+                </div>
+              </button>
+
+              {expandedId === exp.id && (
+                <div className="px-6 pb-6">
+                  <div className="border-t pt-4 space-y-4">
+                    {exp.achievements.map((achievement, idx) => (
+                      <div key={idx} className="flex items-start text-gray-600 dark:text-gray-300">
+                        <ArrowRight className="w-5 h-5 text-blue-600 mr-2 mt-1 flex-shrink-0" />
+                        <p className="text-sm">{achievement}</p>
+                      </div>
+                    ))}
                     
-                    <div className="mt-6 flex flex-wrap gap-2">
+                    <div className="mt-4 flex flex-wrap gap-2">
                       {exp.techStack.map((tech, idx) => (
                         <span
                           key={idx}
-                          className={`flex items-center px-3 py-1 ${currentTheme.background.accent} ${currentTheme.text.accent} rounded-full text-sm`}
+                          className="flex items-center px-3 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 rounded-full text-sm"
                         >
                           {skillIcons[tech] || <FaCode className="w-4 h-4 mr-1" />}
                           {tech}
@@ -168,10 +192,9 @@ const ExperienceSection = () => {
                     </div>
                   </div>
                 </div>
-                <div className="w-5 h-5 bg-blue-600 rounded-full absolute left-1/2 transform -translate-x-1/2"></div>
-              </div>
-            ))}
-          </div>
+              )}
+            </div>
+          ))}
         </div>
       </div>
     </section>

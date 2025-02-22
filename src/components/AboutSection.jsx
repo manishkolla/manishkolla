@@ -24,9 +24,9 @@ const AboutSection = () => {
       description: "Built end-to-end web applications using Flask, Django, and RESTful APIs. Implemented responsive designs and integrated frontend systems with backend databases."
     },
     {
-      title: "Database Administrator",
+      title: "Data Engineer",
       duration: "2+ Years",
-      description: "Managed SQL and NoSQL database systems, optimizing query performance and ensuring data integrity. Experience with data modeling, migration, and security implementation."
+      description: "Managed SQL and NoSQL database systems, optimizing query performance and ensuring data integrity. Experience with data modeling, migration, and the full ETL lifecycle, including data extraction, transformation, and loading for efficient data analysis."
     },
     {
       title: "Academic Tutor",
