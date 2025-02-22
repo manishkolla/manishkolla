@@ -1,6 +1,8 @@
 <div align="center">
 
-  # Manish Kolla
+  # <a href="https://manishkolla.com" target="_blank">Manish Kolla</a>
+
+
 
 ![Typing Animation](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=4000&pause=1000&color=6AD3F7&center=true&vCenter=true&width=550&lines=AI+%26+ML+Engineer;Gen+AI+Engineer;Deep+Learning;Data+Scientist;Software+Developer;Research+Analyst;Data+Engineer)
 
