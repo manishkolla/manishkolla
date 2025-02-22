@@ -26,9 +26,11 @@ import { SiOpenai } from "react-icons/si";
 import { MdOutlineTipsAndUpdates } from "react-icons/md";
 import { FaChartPie } from "react-icons/fa";
 import { FaFlask } from "react-icons/fa";
+import { useTheme } from '../context/ThemeContext';
 
 const ExperienceSection = () => {
   const [expandedId, setExpandedId] = useState(null);
+  const { currentTheme } = useTheme();
 
   const experiences = [
     {
@@ -114,13 +116,13 @@ const ExperienceSection = () => {
   };
 
   return (
-    <section id="experience" className="py-20 bg-gray-50 dark:bg-gray-900">
+    <section id="experience" className={`py-20 ${currentTheme.background.primary}`}>
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl font-bold text-gray-900 dark:text-white sm:text-4xl">
+          <h2 className={`text-3xl font-bold ${currentTheme.text.primary} sm:text-4xl`}>
             Professional Experience
           </h2>
-          <p className="mt-4 text-lg text-gray-600 dark:text-gray-300">
+          <p className={`mt-4 text-lg ${currentTheme.text.secondary}`}>
             My journey through various roles in Data Science, AI, and Academic Support
           </p>
         </div>
@@ -129,7 +131,7 @@ const ExperienceSection = () => {
           {experiences.map((exp) => (
             <div
               key={exp.id}
-              className="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden"
+              className={`${currentTheme.background.secondary} rounded-lg shadow-md overflow-hidden`}
             >
               <button
                 onClick={() => setExpandedId(expandedId === exp.id ? null : exp.id)}
@@ -139,30 +141,30 @@ const ExperienceSection = () => {
                   <div className="flex-1">
                     <div className="flex items-center">
                       <Briefcase className="w-5 h-5 text-blue-600 mr-2" />
-                      <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                      <h3 className={`text-lg font-semibold ${currentTheme.text.primary}`}>
                         {exp.title}
                       </h3>
                     </div>
                     
                     <div className="mt-2 grid grid-cols-1 sm:grid-cols-2 gap-2">
-                      <div className="flex items-center text-gray-600 dark:text-gray-300">
+                      <div className={`flex items-center ${currentTheme.text.secondary}`}>
                         <Building2 className="w-4 h-4 mr-2" />
                         <span className="text-sm">{exp.company}</span>
                       </div>
                       
-                      <div className="flex items-center text-gray-600 dark:text-gray-300">
+                      <div className={`flex items-center ${currentTheme.text.secondary}`}>
                         <Calendar className="w-4 h-4 mr-2" />
                         <span className="text-sm">{exp.period}</span>
                       </div>
                       
-                      <div className="flex items-center text-gray-600 dark:text-gray-300">
+                      <div className={`flex items-center ${currentTheme.text.secondary}`}>
                         <MapPin className="w-4 h-4 mr-2" />
                         <span className="text-sm">{exp.location}</span>
                       </div>
                     </div>
                   </div>
                   <ChevronDown
-                    className={`w-5 h-5 text-gray-500 transform transition-transform duration-200 ${
+                    className={`w-5 h-5 ${currentTheme.text.secondary} transform transition-transform duration-200 ${
                       expandedId === exp.id ? 'rotate-180' : ''
                     }`}
                   />
@@ -173,7 +175,7 @@ const ExperienceSection = () => {
                 <div className="px-6 pb-6">
                   <div className="border-t pt-4 space-y-4">
                     {exp.achievements.map((achievement, idx) => (
-                      <div key={idx} className="flex items-start text-gray-600 dark:text-gray-300">
+                      <div key={idx} className={`flex items-start ${currentTheme.text.secondary}`}>
                         <ArrowRight className="w-5 h-5 text-blue-600 mr-2 mt-1 flex-shrink-0" />
                         <p className="text-sm">{achievement}</p>
                       </div>
@@ -183,7 +185,7 @@ const ExperienceSection = () => {
                       {exp.techStack.map((tech, idx) => (
                         <span
                           key={idx}
-                          className="flex items-center px-3 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 rounded-full text-sm"
+                          className={`flex items-center px-3 py-1 ${currentTheme.background.accent} ${currentTheme.text.accent} rounded-full text-sm`}
                         >
                           {skillIcons[tech] || <FaCode className="w-4 h-4 mr-1" />}
                           {tech}
