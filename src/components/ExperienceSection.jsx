@@ -38,7 +38,7 @@ const ExperienceSection = () => {
       title: "Research Analyst / Data Scientist",
       company: "Evidence Based Cybersecurity Research Group (EBCS)",
       location: "Atlanta, GA",
-      period: "September 2022 - Present",
+      period: "September 2022 - May 2025",
       achievements: [
         "Building web automation frameworks with Selenium and Chrome/Tor drivers, enhancing scraping efficiency by 70% and accuracy to 90%, while extracting data into relational databases and validating results using SQL queries.",
         "Leveraging Machine Learning, Deep Learning, and NLP to analyze data patterns and trained neural networks to predict emerging threats, using virtual machines for malware protection and advanced cloud clusters for better computing abilities.",
@@ -51,7 +51,7 @@ const ExperienceSection = () => {
       title: "Teaching Assistant / Tutor",
       company: "Department of Mathematics and Statistics, GSU",
       location: "Atlanta, GA",
-      period: "January 2022 - Present",
+      period: "January 2022 - April 2025",
       achievements: [
         "Teaching Linear Algebra and Calculus to classes of 15-20 students, clarifying difficult topics and addressing individual math questions.",
         "Collaborating with professors during lectures, proctoring exams, and organizing quizzes in their absence.",
