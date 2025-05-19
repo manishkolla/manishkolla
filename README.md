@@ -32,7 +32,8 @@
 🎓 **Education and Awards**  
 **Georgia State University (Honors)**, Atlanta, GA
 - 🎯 Bachelors of Science in Computer Science with Data Science Certificate
-- 📊 GPA: 3.98/4.0
+- 🥇 Summa Cum Laude (Highest Honors)
+- 📊 GPA: 3.99
 - 🏆 President's List (5x) & Dean's List (2x)
 - 📋 Undergraduate Research Award Nominee
 - 👥 President, Indian Student Organization
