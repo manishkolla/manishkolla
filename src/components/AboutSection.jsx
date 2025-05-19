@@ -143,7 +143,7 @@ const AboutSection = () => {
             <p className={currentTheme.text.secondary}>Bachelor of Science in Computer Science</p>
             <p className={currentTheme.text.secondary}>Certificate in Data Science</p>
             <div className="flex items-center mt-2">
-              <span className="text-blue-600 font-semibold">GPA: 3.98</span>
+              <span className="text-blue-600 font-semibold">GPA: 3.99</span>
               <span className="mx-2">•</span>
               <span className={currentTheme.text.secondary}>Graduation: May 2025</span>
             </div>
