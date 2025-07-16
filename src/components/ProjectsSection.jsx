@@ -173,9 +173,9 @@ const ProjectsSection = () => {
 
     {
       title: "GenAI University Chatbot",
-      description: "A RAG based chatbot designed to optimize network and server load by providing instant answers, bypassing complex navigation.",
+      description: "A CRAG based chatbot designed to optimize network and server load by providing instant answers, bypassing complex navigation.",
       features: [
-        "Leveraged RAG architecture to streamline user interactions and enhance both website efficiency and user experience.",
+        "Leveraged CRAG architecture to streamline user interactions and enhance both website efficiency and user experience.",
         "Used Generative AI models to provide accurate responses and reduce server load and network congestion.",
         "Implemented a chatbot that uses real-time data retrieval from various sources to answer user queries instantly.",
         "Applied cutting-edge techniques like semantic search, FAISS, and BERT embeddings for improved response accuracy and speed."
@@ -230,7 +230,7 @@ const ProjectsSection = () => {
       associatedWith: "University Project"
     },    
     {
-      title: "Law Chat Bot",
+      title: "MultiRAG Legal Chatbot",
       description: "Intelligent chatbot designed for efficient legal text search and query processing.",
       features: [
         "Engineered with Cosine Similarity and Llama 3.0",
