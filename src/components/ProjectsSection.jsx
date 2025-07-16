@@ -170,7 +170,19 @@ const ProjectsSection = () => {
       live: "https://careerwideai.com/",
       image: "CareerWide.png",
     },
-
+    {
+      title: "MultiRAG Legal Chatbot",
+      description: "Research-driven legal chatbot leveraging multi-layered RAG for accurate Title 18 U.S. Code retrieval and response generation.",
+      features: [
+        "Integrates VoyageLaw-2 and Google Text Embedding for dual-layer semantic encoding",
+        "Fuzzy logic-based query scoring enables adaptive retrieval across legal hierarchies",
+        "Achieves 97.75% accuracy on 2,000+ user queries with sub-6s response times",
+        "Demonstrates scalable, interpretable legal information retrieval for domain-specific agents"
+      ],
+      technologies: ["Python", "Gemini 2.0 Flash", "Qdrant", "VoyageLaw-2", "Google Text Embedding"],
+      github: "https://github.com/Nishchaypat/LawChatBot",
+      image: "lawchatbot.png"
+    },
     {
       title: "GenAI University Chatbot",
       description: "A CRAG based chatbot designed to optimize network and server load by providing instant answers, bypassing complex navigation.",
@@ -228,19 +240,6 @@ const ProjectsSection = () => {
       image: "zillow_predictions.png",
       date: "Jan 2024 - Mar 2024",
       associatedWith: "University Project"
-    },    
-    {
-      title: "MultiRAG Legal Chatbot",
-      description: "Intelligent chatbot designed for efficient legal text search and query processing.",
-      features: [
-        "Engineered with Cosine Similarity and Llama 3.0",
-        "Achieves 87% accuracy in query responses",
-        "Structured law database with metadata for each clause",
-        "Reduced query processing time by 10%"
-      ],
-      technologies: ["Python", "Llama", "SQL", "Qdrant", "LLM"],
-      github: "https://github.com/Nishchaypat/LawChatBot",
-      image: "lawchatbot.png",
     }
   ];
 
