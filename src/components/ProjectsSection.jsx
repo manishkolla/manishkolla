@@ -171,7 +171,7 @@ const ProjectsSection = () => {
       image: "CareerWide.png",
     },
     {
-      title: "MultiRAG Legal Chatbot",
+      title: "MultiRAG: A Fuzzy Logic-Driven Multi-Granularity Framework for Legal Document Generation",
       description: "Research-driven legal chatbot leveraging multi-layered RAG for accurate Title 18 U.S. Code retrieval and response generation.",
       features: [
         "Integrates VoyageLaw-2 and Google Text Embedding for dual-layer semantic encoding",
@@ -179,7 +179,7 @@ const ProjectsSection = () => {
         "Achieves 97.75% accuracy on 2,000+ user queries with sub-6s response times",
         "Demonstrates scalable, interpretable legal information retrieval for domain-specific agents"
       ],
-      technologies: ["Python", "Gemini 2.0 Flash", "Qdrant", "VoyageLaw-2", "Google Text Embedding"],
+      technologies: ["Python", "Gemini 2.0 Flash","Fuzzy Approach", "VoyageLaw-2", "Google Text Embedding", "RAG", "Multi-Head RAG", "User-intent Recognization"],
       github: "https://github.com/Nishchaypat/LawChatBot",
       image: "lawchatbot.png"
     },
