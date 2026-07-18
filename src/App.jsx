@@ -8,6 +8,8 @@ import ContactSection from './components/ContactSection';
 import Footer from './components/Footer';
 import WorkingOnSection from './components/WorkingOnSection';
 import Interests from './components/InterestSection';
+import { SpeedInsights } from "@vercel/speed-insights/react";
+import { Analytics } from "@vercel/analytics/react";
 
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -16,7 +18,7 @@ const App = () => {
     // Simulate initial loading
     setTimeout(() => {
       setIsLoading(false);
-    }, 2500);
+    }, 2000);
   }, []);
 
   if (isLoading) {
@@ -43,6 +45,8 @@ const App = () => {
           <ContactSection />
         </main>
         <Footer />
+        <SpeedInsights />
+        <Analytics />
       </div>
     </ThemeProvider>
   );

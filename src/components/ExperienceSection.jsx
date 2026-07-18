@@ -1,28 +1,32 @@
 import React, { useState } from 'react';
-import { 
-  Briefcase, 
-  Calendar, 
-  Building2, 
-  MapPin, 
+import {
+  Briefcase,
+  Calendar,
+  Building2,
+  MapPin,
   ChevronDown,
   ArrowRight
 } from 'lucide-react';
-import { 
-  FaBrain, 
-  FaMicrophone, 
-  FaPython, 
-  FaAws, 
-  FaCloud, 
-  FaDatabase, 
-  FaChartLine, 
-  FaGlobe, 
-  FaChrome, 
-  FaCode, 
-  FaRobot, 
-  FaNetworkWired, 
-  FaUserGraduate 
+import {
+  FaBrain,
+  FaMicrophone,
+  FaPython,
+  FaAws,
+  FaCloud,
+  FaDatabase,
+  FaChartLine,
+  FaGlobe,
+  FaChrome,
+  FaCode,
+  FaRobot,
+  FaNetworkWired,
+  FaUserGraduate,
+  FaReact,
+  FaShieldAlt
 } from 'react-icons/fa';
-import { SiOpenai } from "react-icons/si";
+import { TbBrandOpenai, TbBrandAzure } from "react-icons/tb";
+import { SiLangchain, SiApachespark, SiDatabricks, SiNeo4J } from "react-icons/si";
+import { GrOracle } from "react-icons/gr";
 import { MdOutlineTipsAndUpdates } from "react-icons/md";
 import { FaChartPie } from "react-icons/fa";
 import { FaFlask } from "react-icons/fa";
@@ -33,6 +37,17 @@ const ExperienceSection = () => {
   const { currentTheme } = useTheme();
 
   const experiences = [
+    {
+      id: 5,
+      title: "Associate Data Scientist",
+      company: "Automatic Data Processing (ADP)",
+      location: "Alpharetta, GA",
+      period: "June 2025 - Present",
+      achievements: [
+        "Building some cool projects and tools."
+      ],
+      techStack: ["LangGraph", "PySpark", "AWS", "Azure", "Databricks", "CI/CD", "Workflow Automation", "RPA", "Machine Learning", "Oracle", "React", "MCP (Model Context Protocol)", "AI Guardrails", "Graph-Based Memory Systems"]
+    },
     {
       id: 1,
       title: "Research Analyst / Data Scientist",
@@ -109,10 +124,22 @@ const ExperienceSection = () => {
     "C": <FaCode className="w-4 h-4 mr-1" />,
     "AI": <FaRobot className="w-4 h-4 mr-1" />,
     "IT Support": <FaNetworkWired className="w-4 h-4 mr-1" />,
-    "OpenAI": <SiOpenai className="w-4 h-4 mr-1" />,
+    "OpenAI": <TbBrandOpenai className="w-4 h-4 mr-1" />,
     "Prompt Engineering": <MdOutlineTipsAndUpdates className="w-4 h-4 mr-1" />,
     "Statistics": <FaChartPie className="w-4 h-4 mr-1" />,
-    "Research": <FaFlask className="w-4 h-4 mr-1" />
+    "Research": <FaFlask className="w-4 h-4 mr-1" />,
+    "LangGraph": <SiLangchain className="w-4 h-4 mr-1" />,
+    "PySpark": <SiApachespark className="w-4 h-4 mr-1" />,
+    "Databricks": <SiDatabricks className="w-4 h-4 mr-1" />,
+    "RPA": <FaRobot className="w-4 h-4 mr-1" />,
+    "Workflow Automation": <FaNetworkWired className="w-4 h-4 mr-1" />,
+    "Oracle": <GrOracle className="w-4 h-4 mr-1 text-red-600" />,
+    "React": <FaReact className="w-4 h-4 mr-1 text-cyan-400" />,
+    "MCP (Model Context Protocol)": <FaNetworkWired className="w-4 h-4 mr-1" />,
+    "AI Guardrails": <FaShieldAlt className="w-4 h-4 mr-1 text-green-500" />,
+    "Graph-Based Memory Systems": <SiNeo4J className="w-4 h-4 mr-1 text-blue-500" />,
+    "Spatial Memory Architectures": <FaBrain className="w-4 h-4 mr-1 text-pink-400" />,
+    "Azure": <TbBrandAzure className="w-4 h-4 mr-1 text-blue-500" />
   };
 
   return (
@@ -145,18 +172,18 @@ const ExperienceSection = () => {
                         {exp.title}
                       </h3>
                     </div>
-                    
+
                     <div className="mt-2 grid grid-cols-1 sm:grid-cols-2 gap-2">
                       <div className={`flex items-center ${currentTheme.text.secondary}`}>
                         <Building2 className="w-4 h-4 mr-2" />
                         <span className="text-sm">{exp.company}</span>
                       </div>
-                      
+
                       <div className={`flex items-center ${currentTheme.text.secondary}`}>
                         <Calendar className="w-4 h-4 mr-2" />
                         <span className="text-sm">{exp.period}</span>
                       </div>
-                      
+
                       <div className={`flex items-center ${currentTheme.text.secondary}`}>
                         <MapPin className="w-4 h-4 mr-2" />
                         <span className="text-sm">{exp.location}</span>
@@ -164,9 +191,8 @@ const ExperienceSection = () => {
                     </div>
                   </div>
                   <ChevronDown
-                    className={`w-5 h-5 ${currentTheme.text.secondary} transform transition-transform duration-200 ${
-                      expandedId === exp.id ? 'rotate-180' : ''
-                    }`}
+                    className={`w-5 h-5 ${currentTheme.text.secondary} transform transition-transform duration-200 ${expandedId === exp.id ? 'rotate-180' : ''
+                      }`}
                   />
                 </div>
               </button>
@@ -180,7 +206,7 @@ const ExperienceSection = () => {
                         <p className="text-sm">{achievement}</p>
                       </div>
                     ))}
-                    
+
                     <div className="mt-4 flex flex-wrap gap-2">
                       {exp.techStack.map((tech, idx) => (
                         <span

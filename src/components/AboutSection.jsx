@@ -2,6 +2,9 @@ import React from 'react';
 import { Book, Award, Code, Settings, Briefcase, Clock } from 'lucide-react';
 import { useTheme } from '../context/ThemeContext';
 import { FaPython, FaJs, FaHtml5, FaLanguage, FaRobot, FaCss3Alt, FaMicrophone, FaJava, FaDatabase, FaReact, FaNodeJs, FaAws, FaGoogle, FaDocker, FaGitAlt, FaCode, FaCloud, FaBrain, FaRProject, FaWindows, FaLinux, FaUbuntu, FaJenkins, FaChartBar } from 'react-icons/fa';
+import { SiLangchain, SiTypescript } from 'react-icons/si';
+import { TbBrandAzure } from 'react-icons/tb';
+import { GrOracle } from 'react-icons/gr';
 
 const AboutSection = () => {
   const { currentTheme } = useTheme();
@@ -49,7 +52,9 @@ const AboutSection = () => {
       { name: 'R', icon: <FaRProject /> },
       { name: 'C', icon: <FaCode /> },
       { name: 'SQL', icon: <FaDatabase /> },
-      { name: 'NoSQL', icon: <FaDatabase /> }
+      { name: 'NoSQL', icon: <FaDatabase /> },
+      { name: 'React', icon: <FaReact /> },
+      { name: 'TypeScript', icon: <SiTypescript /> }
     ],
     frameworks: [
       { name: 'Django', icon: <FaPython /> },
@@ -59,8 +64,7 @@ const AboutSection = () => {
       { name: 'Selenium', icon: <FaCode /> },
       { name: 'Beautiful Soup', icon: <FaCode /> },
       { name: 'Agile/Scrum', icon: <FaCode /> },
-      { name: 'TensorFlow', icon: <FaBrain /> },
-      { name: 'Deep Neural Networks', icon: <FaBrain /> }
+      { name: 'TensorFlow', icon: <FaBrain /> }
     ],
     tools: [
       { name: 'AWS', icon: <FaAws /> },
@@ -73,7 +77,9 @@ const AboutSection = () => {
       { name: 'Git', icon: <FaGitAlt /> },
       { name: 'Windows', icon: <FaWindows /> },
       { name: 'Linux', icon: <FaLinux /> },
-      { name: 'Ubuntu', icon: <FaUbuntu /> }
+      { name: 'Ubuntu', icon: <FaUbuntu /> },
+      { name: 'Azure', icon: <TbBrandAzure /> },
+      { name: 'Oracle Fusion', icon: <GrOracle /> }
     ],
     aiAndDevSpecializations: [
       { name: 'Generative AI', icon: <FaBrain /> },
@@ -81,7 +87,8 @@ const AboutSection = () => {
       { name: 'Machine Learning', icon: <FaBrain /> },
       { name: 'Deep Learning', icon: <FaBrain /> },
       { name: 'Prompt Engineering', icon: <FaBrain /> },
-      { name: 'OpenAI, Gemini', icon: <FaRobot /> },
+      { name: 'OpenAI, Gemini, Claude', icon: <FaRobot /> },
+      { name: 'LangGraph', icon: <SiLangchain /> },
     ]
   };
 
@@ -100,7 +107,7 @@ const AboutSection = () => {
         <div className="text-center">
           <h2 className={`text-3xl font-bold ${currentTheme.text.primary} sm:text-4xl`}>About Me</h2>
           <p className={`mt-4 text-lg ${currentTheme.text.secondary} max-w-3xl mx-auto text-center`}>
-          I am passionate about solving complex problems through data and AI. With a strong foundation in computer science and machine learning, I enjoy turning ideas into impactful solutions. Beyond technology, I love staying active through badminton and swimming, as well as exploring new cuisines. I believe that curiosity—whether in data, sports, or food—drives growth and creativity. Whether working on research, development, or mentorship, I am always eager to learn, adapt, and make a meaningful impact.
+          I am passionate about solving complex problems through data and AI. With a strong foundation in computer science and machine learning, I enjoy turning ideas into impactful solutions. Beyond technology, I love staying active through badminton and swimming, as well as exploring new cuisines. I believe that curiosity drives growth and creativity. Whether working on research, development, or mentorship, I am always eager to learn, adapt, and make a meaningful impact.
           </p>
         </div>
 

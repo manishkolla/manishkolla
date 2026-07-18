@@ -5,7 +5,8 @@ import {
   Tv,
   Dumbbell,
   Waves,
-  Gamepad2
+  Gamepad2,
+  Utensils
 } from 'lucide-react';
 
 import { useTheme } from '../context/ThemeContext';
@@ -16,19 +17,31 @@ const InterestSection = () => {
 
   const interests = [
     {
-      title: "Badminton",
-      icon: Dumbbell,
-      description: "Regular player who enjoys getting together with friends for a game. Always up for a match!",
+      title: "Badminton & Swimming",
+      icon: Activity,
+      description: "Enjoy playing badminton with friends and swimming recreationally to stay fit, have fun, and relieve stress.",
     },
     {
-      title: "Swimming",
-      icon: Waves,
-      description: "Enjoy swimming as a way to relax and stay fit. Compete in local swimming events and explore different swimming techniques.",
+      title: "Cooking",
+      icon: Utensils,
+      description: "Loves winding down after work by cooking and experimenting with new recipes. The kitchen is my whiteboard for creative culinary ideas.",
     },
     {
       title: "Travelling & Exploring New Cuisines",
       icon: Globe2,
-      description: "Passionate about visiting new places and experiencing diverse cultures through their food and traditions.",
+      description: (
+        <>
+          Passionate about visiting new places and experiencing diverse cultures through food. Check out my restaurant list on{" "}
+          <a
+            href="https://beliapp.co/app/Manish_K"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={`${currentTheme.text.accent} hover:underline font-semibold`}
+          >
+            Beli
+          </a>!
+        </>
+      ),
     },
     {
       title: "Favorite Shows",
@@ -37,6 +50,7 @@ const InterestSection = () => {
         <>
           The Office<br />
           Big Bang Theory<br />
+          Modern Family<br />
           Suits
         </>
       ),
