@@ -202,7 +202,7 @@ const ExperienceSection = () => {
                   <div className="border-t pt-4 space-y-4">
                     {exp.achievements.map((achievement, idx) => (
                       <div key={idx} className={`flex items-start ${currentTheme.text.secondary}`}>
-                        <ArrowRight className="w-5 h-5 text-blue-600 mr-2 mt-1 flex-shrink-0" />
+                        <ArrowRight className="w-4 h-4 text-blue-600 mr-2 mt-1 flex-shrink-0" />
                         <p className="text-sm">{achievement}</p>
                       </div>
                     ))}
