@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, Moon, Sun, ChevronRight, Github, Linkedin, Mail } from 'lucide-react';
 import { useTheme } from '../context/ThemeContext';
-import Typical from 'react-typical';
+import Typewriter from './Typewriter';
 
 const NavigationBar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -146,11 +146,7 @@ const NavigationBar = () => {
             <h1 className="text-4xl tracking-tight font-extrabold sm:text-5xl md:text-6xl">
               <span className={`block ${currentTheme.text.primary}`}>Hi, I'm</span>
               <span className="block text-blue-600">
-                <Typical
-                  steps={['Manish Kolla', 5000, '', 1000]}
-                  loop={Infinity}
-                  wrapper="span"
-                />
+                <Typewriter text="Manish Kolla" />
               </span>
             </h1>
 
